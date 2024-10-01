@@ -63,7 +63,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
 
   return (
     <div
-      className="bg-[#18162099]/60 rounded-[10px] backdrop-filter h-full backdrop-blur-sm w-[250px] lg:w-[460px] lg:mx-auto jost text-white"
+      className="bg-[#18162099]/60 rounded-[10px] backdrop-filter h-full backdrop-blur-sm w-[250px] lg:w-[460px] mx-auto jost text-white"
       style={{ boxShadow: '4px 4px 12px rgba(0, 0, 0, 0.5)' }}
     >
       <div className="bg-[#181B2E] rounded-t-[10px] p-[10px] lg:p-[15px] px-[10px] lg:px-[20px]">
@@ -95,11 +95,11 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
       <div className="p-[10px] lg:p-[20px]">
         <div className="flex items-center justify-between lg:h-full">
           <Status totalScore={totalScore} tokenAge={tokenAge} />
-          <div className="border-l-2 border-white/10 mx-5 self-stretch"></div>
+          <div className="border-l-2 border-white/10 my-2 lg:mx-5 self-stretch"></div>
           <Report />
         </div>
 
-        <div className="border-b-2 border-white/10 my-5 self-stretch"></div>
+        <div className="border-b-2 border-white/10 lg:my-5 self-stretch"></div>
 
         <Info holdersCount={holdersCount} currentLiquidity={currentLiquidity} lpHolders={lpHolders} />
       </div>

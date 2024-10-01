@@ -19,7 +19,7 @@ const Status = ({ totalScore, tokenAge }) => {
           </div>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-2">
           <div className="">
             <p className='text-[#DDDDDD] '>Overall Score:</p>
             <div className="bg-[#B40D00] h-5 lg:h-10 w-full rounded-[8px] flex justify-center items-center lg:mx-auto">
