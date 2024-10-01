@@ -35,7 +35,7 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                     <p>Holders</p>
                     <div className=" flex justify-center gap-1 items-center">
                         <img className='h-3 lg:h-4' src={Assets.Caution} alt="" />
-                        <p className=' font-semibold text-md'>1</p>
+                        <p className=' font-semibold  lg:text-md'>1</p>
                     </div>
                 </div>
             </div>
