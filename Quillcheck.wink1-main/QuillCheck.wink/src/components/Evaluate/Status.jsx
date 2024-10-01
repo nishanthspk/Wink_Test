@@ -22,7 +22,7 @@ const Status = ({ totalScore, tokenAge }) => {
         <div className="space-y-3">
           <div className="">
             <p className='text-[#DDDDDD]'>Overall Score:</p>
-            <div className="bg-[#B40D00] h-6 lg:h-10 w-full rounded-[8px] flex justify-center items-center mx-auto">
+            <div className="bg-[#B40D00] h-5 lg:h-10 w-full rounded-[8px] flex justify-center items-center mx-auto">
               {/* Display the totalScore prop */}
               <p className='text-base font-semibold'>{totalScore}%</p>
             </div>

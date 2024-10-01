@@ -76,7 +76,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
           <div className="flex rounded-[20px]">
             <button
               onClick={onBackClick}
-              className="bg-[#007AFF] hover:bg-[#007AFF]/70 rounded-[5px] text-white p-1 px-6 text-base border-y border-y-[#86AFFF]"
+              className="bg-[#007AFF] hover:bg-[#007AFF]/70 rounded-[5px] text-white lg:p-1 px-2 lg:px-6 text-base border-y border-y-[#86AFFF]"
             >
               Back
             </button>
