@@ -17,16 +17,16 @@ const SelectToken = ({ onCheckClick, setSelectedToken, setTokenAddress }) => {
 
   return (
     <div
-      className="bg-[#18162099]/60 rounded-[10px] backdrop-filter backdrop-blur-sm w-[200px] lg:w-[460px] mx-auto p-[20px] lg:p-[30px] jost"
+      className="bg-[#18162099]/60 rounded-[10px] backdrop-filter backdrop-blur-sm w-[250px] lg:w-[460px] mx-auto p-[20px] lg:p-[30px] jost"
       style={{ boxShadow: '4px 4px 12px rgba(0, 0, 0, 0.5)' }}
     >
       <p className="text-white  lg:text-[2px] text-center lg:text-center">Evaluate Any Token</p>
-      <div className="lg:mt-6 mt-4 space-y-3 lg:space-y-4">
-        <div className="flex justify-center space-x-1 lg:space-x-6">
+      <div className="lg:mt-6 mt-4 space-y-2 lg:space-y-4">
+        <div className="flex justify-center space-x-2 lg:space-x-6">
           {['ETH', 'BSC', 'Polygon', 'Base'].map((token, index) => (
             <button
               key={token}
-              className={`px-2 py-1 lg:px-4 lg:py-2 rounded-md flex items-center text-[9px] lg:text-sm gap-1 lg:gap-2 ${
+              className={`px-3 py-1 lg:px-4 lg:py-2 rounded-md flex items-center text-[9px] lg:text-sm gap-1 lg:gap-2 ${
                 selectedButton === index + 1
                   ? 'bg-black text-white font-normal border border-black'
                   : 'border border-white text-white opacity-60 font-light hover:bg-black hover:opacity-100 hover:border-black'
