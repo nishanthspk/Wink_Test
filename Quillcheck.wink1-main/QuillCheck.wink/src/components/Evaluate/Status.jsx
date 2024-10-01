@@ -4,7 +4,7 @@ import Assets from '../Assets';
 const Status = ({ totalScore, tokenAge }) => {
   return (
     <div>
-      <div className="flex gap-2 lg:gap-4 text-[8px] lg:text-sm">
+      <div className="flex gap-1 lg:gap-4 text-[8px] lg:text-sm">
         <div className="space-y-2 lg:space-y-3">
           <div className="">
             <p className='text-[#DDDDDD]'>Last Known Status:</p>
