@@ -12,21 +12,21 @@ const Report = () => {
                     </div>
                     <p>1</p>
                 </div>
-                <div className="flex justify-between space-x-9 items-center">
+                <div className="flex justify-between space-x-1 lg:space-x-9 items-center">
                     <div className=" flex items-center gap-2">
                         <img className=' h-4' src={Assets.Caution} alt="" />
                         <p className=' '>Risky:</p>
                     </div>
                     <p>12</p>
                 </div>
-                <div className="flex justify-between space-x-9 items-center">
+                <div className="flex justify-between space-x-1 lg:space-x-9 items-center">
                     <div className=" flex items-center gap-2">
                         <img className=' h-4' src={Assets.Exclamatory} alt="" />
                         <p className=' '>Medium:</p>
                     </div>
                     <p>0</p>
                 </div>
-                <div className="flex justify-between space-x-9 items-center">
+                <div className="flex justify-between space-x-1 lg:space-x-9 items-center">
                     <div className=" flex items-center gap-2">
                         <img className=' h-4' src={Assets.Dot} alt="" />
                         <p className=' '>Neutral:</p>
