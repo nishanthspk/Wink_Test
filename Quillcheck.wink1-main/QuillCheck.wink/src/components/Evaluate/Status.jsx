@@ -4,7 +4,7 @@ import Assets from '../Assets';
 const Status = ({ totalScore, tokenAge }) => {
   return (
     <div>
-      <div className="flex gap-2 lg:gap-4 text-[10px] lg:text-sm">
+      <div className="flex gap-2 lg:gap-4 text-[8px] lg:text-sm">
         <div className="space-y-2 lg:space-y-3">
           <div className="">
             <p className='text-[#DDDDDD]'>Last Known Status:</p>
@@ -20,8 +20,8 @@ const Status = ({ totalScore, tokenAge }) => {
         </div>
 
         <div className="space-y-3">
-          <div className="">
-            <p className='text-[#DDDDDD]'>Overall Score:</p>
+          <div className="text-[8px] lg:text-sm">
+            <p className='text-[#DDDDDD] '>Overall Score:</p>
             <div className="bg-[#B40D00] h-5 lg:h-10 w-full rounded-[8px] flex justify-center items-center mx-auto">
               {/* Display the totalScore prop */}
               <p className='text-base font-semibold'>{totalScore}%</p>
