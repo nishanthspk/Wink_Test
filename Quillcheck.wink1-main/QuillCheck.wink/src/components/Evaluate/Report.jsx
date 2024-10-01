@@ -5,8 +5,8 @@ const Report = () => {
     return (
         <div>
             <div className=" space-y-2 text-[8px] lg:text-sm">
-                <div className="flex justify-between  lg:space-x-9 items-center">
-                    <div className=" flex items-center gap-2">
+                <div className="flex justify-between space-x-1 lg:space-x-9 items-center">
+                    <div className=" flex items-center  gap-2">
                         <img className=' h-4' src={Assets.XVoilet} alt="" />
                         <p className=' '>Critical:</p>
                     </div>
