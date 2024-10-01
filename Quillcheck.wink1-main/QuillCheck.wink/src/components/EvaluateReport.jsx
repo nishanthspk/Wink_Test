@@ -99,7 +99,7 @@ const EvaluateReport = ({ onBackClick, selectedToken, tokenAddress }) => {
           <Report />
         </div>
 
-        <div className="border-b-2 border-white/10 lg:my-5 self-stretch"></div>
+        <div className="border-b-2 border-white/10 my-2 lg:my-5 self-stretch"></div>
 
         <Info holdersCount={holdersCount} currentLiquidity={currentLiquidity} lpHolders={lpHolders} />
       </div>
