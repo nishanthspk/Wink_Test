@@ -48,7 +48,7 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                         <p className=' font-semibold text-[10px] lg:text-md'>0%</p>
                     </div>
                 </div>
-                <div className="border-l-2 border-white/10 mx-10 self-stretch"></div>
+                <div className="border-l-2 border-white/10 lg:mx-10 lg:self-stretch"></div>
                 <div className="">
                     <p>Sell Tax</p>
                     <div className=" flex justify-center gap-1 items-center">
