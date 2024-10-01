@@ -9,7 +9,7 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                     <p>Holders</p>
                     <div className=" flex justify-center gap-1 items-center">
                         <img className='h-2 lg:h-4' src={Assets.Exclamatory} alt="" />
-                        <p className=' font-semibold text-[10px]'>
+                        <p className=' font-semibold text-[10px] lg:text-xs'>
                             {holdersCount}
                             </p>
                     </div>
@@ -19,7 +19,7 @@ const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
                     <p >Current Liquidity</p>
                     <div className=" flex justify-center gap-1 items-center">
                         <img className='h-2 lg:h-4' src={Assets.Shield} alt="" />
-                        <p className=' font-semibold text-[10px]'>${currentLiquidity}</p>
+                        <p className=' font-semibold text-[10px] lg:text-xs'>${currentLiquidity}</p>
                     </div>
                 </div>
                 <div className="border-l-2 border-white/10 mx-2 lg:mx-5 lg:self-stretch"></div>
