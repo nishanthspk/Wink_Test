@@ -3,13 +3,13 @@ import Assets from '../Assets'
 
 const Info = ({ holdersCount, currentLiquidity, lpHolders }) => {
     return (
-        <div className="text-[9px] lg:text-sm space-y-1 lg:space-y-4">
+        <div className="text-[8px] lg:text-sm space-y-1 lg:space-y-4">
             <div className=" flex justify-between">
                 <div className="">
                     <p>Holders</p>
                     <div className=" flex justify-center gap-1 items-center">
-                        <img className='h-3 lg:h-4' src={Assets.Exclamatory} alt="" />
-                        <p className=' font-semibold text-xs'>
+                        <img className='h-2 lg:h-4' src={Assets.Exclamatory} alt="" />
+                        <p className=' font-semibold text-[10px]'>
                             {holdersCount}
                             </p>
                     </div>
